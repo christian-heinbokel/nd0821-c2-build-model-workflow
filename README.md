@@ -4,6 +4,7 @@ The results obtained from this repository's pipeline are logged and tracked to a
 
 This is public and can be accessed at: https://wandb.ai/cheinbokel/nyc_airbnb
 
+This repository itself is available at the URL: https://github.com/christian-heinbokel/nd0821-c2-build-model-workflow
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 
