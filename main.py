@@ -21,8 +21,10 @@ _steps = [
 
 
 # This automatically reads in the configuration
+# pylint: disable=invalid-name
 @hydra.main(config_name="config")
 def go(config: DictConfig):
+    """Main function to execute the entire pipeline"""
 
     # Setup the wandb experiment. All runs will be grouped under this name
     os.environ["WANDB_PROJECT"] = config["main"]["project_name"]
